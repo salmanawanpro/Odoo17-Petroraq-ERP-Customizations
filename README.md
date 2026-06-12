@@ -1,133 +1,93 @@
 # Petroraq ERP Customizations (Odoo 17)
 
-This repository contains a comprehensive set of custom modules and enhancements built on top of Odoo 17 for Petroraq business requirements.
+This repository contains a set of custom modules and enhancements built on top of **Odoo 17 ERP**, developed for real business requirements of Petroraq.
 
-The project extends the standard Odoo ERP system with industry-specific customizations across HR, Accounting, Payroll, Attendance, Purchase, Reporting, and System Enhancements.
+The project extends standard Odoo functionality across multiple business domains including **HR, Accounting, Payroll, Attendance, Purchase, Reporting, and System-level UI improvements**.
 
-All modules are designed with a modular and upgrade-safe approach, ensuring that core Odoo functionality remains untouched while business logic is implemented in separate, maintainable components.
+All modules follow a **modular and upgrade-safe architecture**, ensuring that core Odoo remains untouched while business logic is implemented in separate maintainable components.
 
 ---
 
 ## Project Scope
 
-This ERP implementation includes development and customization across multiple business domains:
-
 ### HR & Employee Management
-- Employee management workflows
-- Attendance tracking (ZK integration)
-- Leave management system
-- Payroll processing
-- HR dashboards and reporting
-- Organizational structure enhancements
+- Employee lifecycle workflows  
+- Attendance tracking (ZK integration)  
+- Leave management system  
+- Payroll processing  
+- HR dashboards and reporting  
+- Organizational structure enhancements  
 
 ### Accounting & Finance
-- Custom ledger enhancements
-- Invoice reporting (PDF & Excel)
-- Journal sequence customization
-- Financial reporting improvements
+- Custom ledger enhancements  
+- Invoice reporting (PDF & Excel)  
+- Journal sequence customization  
+- Financial reporting improvements  
 
 ### Purchase & Inventory
-- Purchase request workflow
-- Purchase module enhancements
-- Inventory update automation (test utilities included)
+- Purchase request workflow  
+- Purchase module enhancements  
+- Inventory update automation  
 
 ### Reporting & Analytics
-- Dynamic financial reports
-- Spreadsheet dashboards
-- XLSX-based payroll reports
-- Custom analytical views
+- Dynamic financial reports  
+- Spreadsheet dashboards  
+- XLSX payroll reports  
+- Custom analytical views  
 
 ### System Enhancements
-- Web client improvements (list view, notifications, UI tweaks)
-- Custom favicon & branding
-- Chatter position customization
-- Column width enhancements
-- Performance and usability improvements
-
----
-
-## Project Structure
-
-```text
-accounting/
-HR modules/
-purchase/
-reporting/
-customizations/
-core extensions/
-utility scripts/
-```
-
-> The repository contains multiple independent Odoo modules, each responsible for a specific business function. This ensures scalability and easier maintenance.
+- Web client improvements (UI, list view, notifications)  
+- Branding & favicon customization  
+- Chatter position customization  
+- Column width enhancements  
 
 ---
 
 ## Key Modules
-
-Some of the important modules included in this project:
-
-- HR Workspace & Payroll Suite
-- Attendance & Time Tracking (ZK Integration)
-- Leave Management Dashboard
-- Dynamic Financial Reporting Engine
-- Purchase Request System
-- Custom Accounting Enhancements
-- XLSX Payroll Reports
-- Spreadsheet Dashboard Tools
-- Web Client Enhancements
-- System UI Customizations
+- HR Workspace & Payroll Suite  
+- Attendance & Time Tracking (ZK Integration)  
+- Leave Management Dashboard  
+- Dynamic Financial Reporting Engine  
+- Purchase Request System  
+- Accounting Enhancements  
+- XLSX Payroll Reports  
+- Spreadsheet Dashboard Tools  
+- Web Client Customizations  
 
 ---
 
 ## Technology Stack
-
-- Odoo 17 Enterprise / Community
-- Python
-- PostgreSQL
-- JavaScript (Odoo Web Client)
-- XML (Views & Reports)
-- XLSX Reporting Engine
+- Odoo 17 (Enterprise/Community)
+- Python  
+- PostgreSQL  
+- JavaScript (Odoo Web Client)  
+- XML (Views & Reports)  
+- XLSX Reporting Engine  
 
 ---
 
 ## Development Approach
-
-The project follows a clean modular architecture:
-
-- Core Odoo code is never modified directly
-- Each business feature is implemented as a separate module
-- Customizations are isolated for upgrade compatibility
-- Reusable components are used across modules
-- Business logic is separated from UI and reporting layers
-
-This ensures long-term maintainability and easy future upgrades.
+- Core Odoo code is never modified directly  
+- Each feature is implemented as a separate module  
+- Customizations are isolated for upgrade compatibility  
+- Reusable components across modules  
+- Business logic separated from UI and reporting layers  
 
 ---
 
 ## Business Value
-
-This ERP customization delivers:
-
-- Streamlined HR operations
-- Automated payroll processing
-- Improved financial reporting accuracy
-- Faster purchase workflow handling
-- Enhanced decision-making through dashboards
-- Better system usability and user experience
-
----
-
-## About the Project
-
-**Petroraq ERP Customization Suite** is designed to transform standard Odoo into a fully tailored enterprise solution aligned with real business workflows and operational requirements.
+- Automated HR & Payroll operations  
+- Improved financial reporting accuracy  
+- Faster purchase workflows  
+- Better decision-making via dashboards  
+- Enhanced system usability and control  
 
 ---
 
 ## Developer
 
-**Salman Awan**
-
-Odoo Developer | ERP/CRM Consultant | Python Engineer
+**Salman Awan**  
+Senior Odoo Developer | ERP/CRM Consultant | Python Engineer  
 
 Specialized in:
 
@@ -144,8 +104,8 @@ Specialized in:
 - Reporting (PDF, Excel, Dashboard Systems)
 - Odoo Migration & Version Upgrades
 - System Optimization & Performance Tuning
+
 ---
 
 ## Notes
-
-All modules are developed following Odoo best practices with focus on stability, scalability, and maintainability. Each component can be deployed independently or as part of a full ERP solution.
+All modules follow Odoo best practices with focus on **scalability, maintainability, and upgrade safety**. Each module can work independently or as part of full ERP deployment.
